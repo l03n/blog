@@ -1,0 +1,21 @@
+{
+    "name": "l03n/blog",
+    "description": "A Simple Blog Example",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "L03n"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "l03n/framework": "dev-master"
+    }
+}
