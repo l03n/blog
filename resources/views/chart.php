@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    <h3>Home</h3>
+    <h3>Chart Example</h3>
+
+    <div id="app">
+        <chart-example></chart-example>
+    </div>
 
     <script src="js/app.js"></script>
 </body>

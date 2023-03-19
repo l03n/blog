@@ -8,6 +8,7 @@ class Routes
 
     public $routes = [
         '' => '../resources/views/home.php',
+        'chart' => '../resources/views/chart.php',
         'contact' => '../resources/views/contact.php',
     ];
 
