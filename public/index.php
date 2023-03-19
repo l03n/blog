@@ -2,6 +2,8 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-use L03n\Support;
+use Router\Routes;
 
-dd($_SERVER);
+$routes = new Routes;
+
+$routes->get();
